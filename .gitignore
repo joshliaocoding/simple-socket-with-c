@@ -1,0 +1,42 @@
+# macOS specific files
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+
+# C build artifacts
+*.o      # Object files
+*.out    # Executable files (default for GCC/Clang)
+*.exe    # Executables (for cross-platform compatibility)
+*.dSYM/  # Debug symbols for macOS
+*.su     # Source file checksums
+*.idb    # Visual Studio database files
+*.pdb    # Program database files
+
+# Libraries
+*.a      # Static libraries
+*.so     # Shared libraries (Linux/Unix)
+*.dylib  # Dynamic libraries (macOS)
+*.dll    # Dynamic-link libraries (Windows)
+
+# Temporary and editor files
+*~       # Backup files
+*.bak    # Backup files
+*.swp    # Vim swap files
+*.swo    # Vim swap files
+*.log    # Log files
+*.tmp    # Temporary files
+
+# Build directories (if used)
+build/
+bin/
+obj/
+
+# Kernel Module related files (if applicable)
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
